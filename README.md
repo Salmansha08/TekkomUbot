@@ -35,7 +35,7 @@ A modular Telegram userbot running on Python3 with sqlalchemy database.
 Based on ProjectDils [ProjectDils](https://github.com/aidilaryanto/ProjectDils) userbot with a lot of changes, features and module.
 
 ## How To Host
-Deploy ProjectDils to Heroku:
+Deploy TekkomUbot to Heroku:
 
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/aidilaryanto/ProjectDils/tree/master"> <img src="https://telegra.ph/file/3d5baaff9cbb43c5a525e.png" alt="Deploy to Heroku" width="200" height="33.33"/></a></p>
 
