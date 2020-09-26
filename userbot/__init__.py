@@ -3,7 +3,7 @@
 # Licensed under the Raphielscape Public License, Version 1.c (the "License");
 # you may not use this file except in compliance with the License.
 #
-""" ProjectDils initialization. """
+""" TekkomUbot initialization. """
 
 
 import os
@@ -76,10 +76,10 @@ ALIVE_NAME = os.environ.get("ALIVE_NAME") or None
 
 # Default .alive logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://telegra.ph/file/36df725e1554826a2dfda.png")
+              or "https://telegra.ph/file/11d41b9a1ae7d3a93c209.png")
 
 # ProjectDils Version
-PROJECTDILS_VERSION = os.environ.get("PROJECTDILS_VERSION") or "2.9"
+PROJECTDILS_VERSION = os.environ.get("TEKKOMUBOT_VERSION") or "2.9"
 
 # Bleep Blop, this is a bot ;)
 PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN") or "False")
@@ -95,7 +95,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN") or None
 
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = (os.environ.get("UPSTREAM_REPO_URL")
-                     or "https://github.com/Salmansha08/ProjectDils.git")
+                     or "https://github.com/Salmansha08/TekkomUbot.git")
 
 # UPSTREAM_REPO_URL branch, the default is master
 UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH") or "master"
@@ -294,7 +294,7 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("I'm [ProjectDils](https://github.com/Salmansha08/ProjectDils) modules helper...\nplease make your own bot, don't use mine 😋")
+                await event.reply("I'm [TekkomUbot](https://github.com/Salmansha08/TekkomUbot) modules helper...\nplease make your own bot, don't use mine 😋")
             else:
                 await event.reply(f"`Hey there {ALIVE_NAME}\n\nI work for you :)`")
 
@@ -328,7 +328,7 @@ with bot:
                         [
                             custom.Button.url(
                                 "GitHub Repo",
-                                "https://github.com/Salmansha08/ProjectDils"),
+                                "https://github.com/Salmansha08/TekkomUbot"),
                             custom.Button.url(
                                 "Support",
                                 "https://t.me/UserBotIndo")],
