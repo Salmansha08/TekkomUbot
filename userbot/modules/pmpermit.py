@@ -23,11 +23,12 @@ from userbot.events import register
 
 # ========================= CONSTANTS ============================
 DEF_UNAPPROVED_MSG = (
-    "Sorry, I haven't approved you to PM yet.\n"
+    "Pun10, I haven't approved you to PM yet.\n"
     "Please wait for me to look in.\n"
     "Until then, please don't spam My PM or you will get blocked...\n"
     "Thank You\n\n"
-    "*This is an automated message."
+    "*This is an automated message.\n\n\n"
+    "TekkomUbot."
 )
 # =================================================================
 
