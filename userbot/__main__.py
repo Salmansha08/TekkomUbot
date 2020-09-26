@@ -27,10 +27,10 @@ for module_name in ALL_MODULES:
     imported_module = import_module("userbot.modules." + module_name)
 
 
-LOGS.info("You are running ProjectDils [v2.9]")
+LOGS.info("You are running TekkomUbot [v2.9]")
 
 LOGS.info(
-    "ProjectDils is now running !!"
+    "TekkomUbot is now running !!"
     "Test it by typing .on or .ping in any chat.")
 
 
