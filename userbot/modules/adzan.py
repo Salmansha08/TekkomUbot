@@ -44,7 +44,7 @@ async def get_adzan(adzan):
         f"📍 `{city} | {country}`\n\n"
         f"**Imsak :** `{imsak}`\n"
         f"**Subuh :** `{subuh}`\n"
-        f"**Zuhur :** `{zuhur}`\n"
+        f"**Dzuhur :** `{zuhur}`\n"
         f"**Ashar :** `{ashar}`\n"
         f"**Maghrib :** `{maghrib}`\n"
         f"**Isya :** `{isya}`\n"
