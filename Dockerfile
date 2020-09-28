@@ -1,12 +1,12 @@
 # Using Ubuntu 20.10
-FROM aidilaryanto/projectdils:groovy
+FROM Salmansha08/TekkomUbot:groovy
 
 # Clone Repo
-RUN git clone -b master https://github.com/aidilaryanto/ProjectDils /home/ProjectDils/
+RUN git clone -b master https://github.com/Salmansha08/TekkomUbot /home/TekkomUbot/
 
 # Set Working Directory
-RUN mkdir /home/ProjectDils/bin/
-WORKDIR /home/ProjectDils/
+RUN mkdir /home/TekkomUbot/bin/
+WORKDIR /home/TekkomUbot
 
 # Finalization
 CMD ["python3","-m","userbot"]
