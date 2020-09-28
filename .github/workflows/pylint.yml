@@ -43,6 +43,6 @@ jobs:
           commit_message: 'pylint: auto fixes'
           commit_options: '--no-verify --signoff'
           repository: .
-          commit_user_name: aidilaryanto
-          commit_user_email: aidilaryanto18@gmail.com
-          commit_author: aidilaryanto <aidilaryanto18@gmail.com>
+          commit_user_name: Salmansha08
+          commit_user_email: salmanfc207@gmail.com
+          commit_author: Salmansha08 <salmanfc207@gmail.com>
